@@ -1,0 +1,1233 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
+header {
+    max-width: 100%;
+    position: sticky;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 9999;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    list-style: none;
+}
+
+.uplower {
+    text-transform: capitalize;
+}
+
+a {
+    text-decoration: none;
+}
+
+.pdl {
+    padding-left: 12px;
+}
+
+.container-menu1 {
+    max-width: 100%;
+    background-color: #0e4159;
+}
+
+.container-menu2 {
+    top: 96px;
+    background-color: #f2f2f2;
+    height: 30px;
+}
+
+.container1 {
+    width: 1200px;
+    display: flex;
+    background-color: #0e4159;
+    margin: auto;
+}
+
+.container1 li {
+    list-style: none;
+}
+
+.logo {
+    flex: 20%;
+}
+
+.logo img {
+    width: 100%;
+    padding: 5px;
+}
+
+.search {
+    flex: 52%;
+    margin-left: 10px;
+}
+
+.search li input {
+    width: 86%;
+    margin-top: 30px;
+    height: 30px;
+    outline: none;
+    padding-left: 14px;
+}
+
+#btntim {
+    width: 50px;
+    padding-left: 0px;
+}
+
+.orther {
+    flex: 30%;
+    display: flex;
+    font-size: 15px;
+    right: 10px;
+}
+
+.orther-bag {
+    width: 170px;
+}
+
+.orther li {
+    padding-top: 40px;
+}
+
+.orther li a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.container2 {
+    width: 1200px;
+    display: flex;
+    background-color: #f2f2f2;
+    margin: auto;
+}
+
+.clear {
+    clear: both;
+}
+
+
+/*=================================form-Login==============================================*/
+
+.adress-form {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.adress-form span {
+    margin: 0px 0px 0px 60px;
+    font-size: 20px;
+}
+
+.login {
+    width: 510px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.login h1 {
+    color: #0e4159;
+}
+
+form h1 {
+    background-color: white;
+}
+
+#email {
+    width: 370px;
+    height: 30px;
+    border: 1px solid #D8D3D0;
+    padding: 10px;
+    margin-left: 30px;
+    outline: none;
+}
+
+#password {
+    width: 370px;
+    height: 30px;
+    border: 1px solid #D8D3D0;
+    padding: 10px;
+    outline: none;
+}
+
+.login button,
+#btndangky {
+    width: 200px;
+    height: 35px;
+    border: 0px;
+    color: white;
+    background-color: #0e4159;
+    margin-left: 10px;
+    transition: all 0.3s;
+}
+
+#register {
+    border: 0px;
+    margin-left: 50px;
+    color: black;
+}
+
+#register:hover {
+    color: #0e4159;
+}
+
+#trangtruoc {
+    margin-left: 40px;
+    color: black;
+}
+
+#trangtruoc:hover {
+    color: #0e4159;
+}
+
+#gender {
+    height: 30px;
+    border: 1px solid #D8D3D0;
+    margin-left: 43px;
+}
+
+#fullname {
+    width: 280px;
+    height: 30px;
+    border: 1px solid #D8D3D0;
+    padding: 10px;
+    margin-left: 8px;
+    outline: none;
+}
+
+#telephone {
+    width: 280px;
+    height: 30px;
+    padding: 10px;
+    margin-left: 20px;
+    outline: none;
+}
+
+#forgotpassword {
+    margin-left: 110px;
+    color: black;
+    outline: none;
+}
+
+#forgotpassword:hover {
+    color: #0e4159;
+}
+
+#diachi {
+    padding-left: 30px;
+    outline: none;
+}
+
+#btndangky:hover {
+    background: rgb(199, 199, 199);
+    border: 2px solid #0e4159;
+    color: #0e4159;
+}
+
+
+/*=================menu-bot==============================*/
+
+.container-danhmuc {
+    float: left;
+    width: 210px;
+    padding: 6px 5px 6px 5px;
+    font-size: 16px;
+    background-color: white;
+    position: relative;
+}
+
+.container-danhmuc li {
+    line-height: 18px;
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.container-danhmuc:hover .submenu0 {
+    display: block;
+}
+
+.submenu0 {
+    width: 210px;
+    min-height: auto;
+    top: 32px;
+    left: 0;
+    text-align: left;
+    position: absolute;
+    display: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: #000000;
+    background-color: #fff;
+    padding: 8px 0 8px 5px!important;
+    z-index: 1001;
+    box-shadow: 5px 3px rgb(207, 207, 207);
+}
+
+.submenu0>li:hover {
+    background-color: #0e4159;
+}
+
+.submenu0>li>a:hover {
+    margin-left: 15px;
+    color: white;
+}
+
+.submenu0 li a {
+    text-decoration: none;
+    line-height: 18px;
+    display: block;
+    padding: 0;
+    margin: 0;
+    transition: padding left .3s;
+    padding: 8px 0 8px 5px!important;
+    font-size: 13px;
+    color: rgb(51, 51, 51);
+    overflow: hidden;
+    transition: margin-left 0.3s ease-in-out;
+    -moz-transition: margin-left 0.3s ease-in-out;
+    -webkit-transition: margin-left 0.3s ease-in-out;
+}
+
+.submenu0 li li {
+    line-height: 18px;
+    display: block;
+    padding: 2px 0 2px 0;
+    margin: 0;
+}
+
+.submenu0 li:hover .submenu1 {
+    display: block;
+    color: #0e4159;
+}
+
+.submenu1 li a:hover {
+    margin-left: 15px;
+    color: #0e4159;
+}
+
+.submenu1 {
+    top: 0;
+    left: 209px;
+    height: 100%;
+    text-align: left;
+    width: 245px;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: #000000;
+    background-color: #f2f2f2;
+    border-left: 5px solid #0e4159;
+    display: none;
+    z-index: 1001;
+}
+
+.hotline {
+    flex: 1;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 5px 0 20px;
+    background-color: left 8px no-repea;
+}
+
+.hotline li {
+    float: right;
+    color: #0e4159;
+}
+
+
+/*===========================menu trang chu + slide===================================================*/
+
+.container-menuhome-slider {
+    width: 1200px;
+    margin: auto;
+}
+
+.container3 {
+    display: flex;
+    margin: auto;
+}
+
+.menu-trangchu {
+    flex: 18%;
+    width: 210px;
+    padding: 0px 5px 6px -10px;
+    font-size: 16px;
+    background-color: white;
+    position: relative;
+}
+
+.menu-trangchu li {
+    line-height: 18px;
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-trangchu li:hover {
+    background-color: #0e4159;
+}
+
+.menu-trangchu li a:hover {
+    margin-left: 15px;
+    color: white;
+}
+
+.menu-trangchu li a {
+    text-decoration: none;
+    line-height: 18px;
+    display: block;
+    padding: 0;
+    padding: 8px 0 8px 5px!important;
+    font-size: 13px;
+    color: rgb(51, 51, 51);
+    overflow: hidden;
+    transition: margin-left 0.3s ease-in-out;
+    -moz-transition: margin-left 0.3s ease-in-out;
+    -webkit-transition: margin-left 0.3s ease-in-out;
+}
+
+.menu-trangchu li li {
+    line-height: 18px;
+    display: block;
+    padding: 2px 0 2px 0;
+    margin: 0;
+}
+
+.menu-trangchu li:hover .submenu-trangchu {
+    display: block;
+    color: #0e4159;
+}
+
+.submenu-trangchu li a:hover {
+    color: #0e4159;
+}
+
+.submenu-trangchu {
+    top: 0;
+    left: 209px;
+    height: 100%;
+    text-align: left;
+    width: 245px;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: #000000;
+    background-color: #f2f2f2;
+    border-left: 5px solid #0e4159;
+    display: none;
+    z-index: 1001;
+}
+
+
+/*==========================slide==================*/
+
+.container-slide-trangchu {
+    flex: 82%;
+    height: 430px;
+    margin-top: 10px;
+}
+
+.mySlides {
+    display: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+
+/* Slideshow container */
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+
+/* The dots/bullets/indicators */
+
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color: #717171;
+}
+
+
+/* Fading animation */
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+
+/* On smaller screens, decrease text size */
+
+@media only screen and (max-width: 300px) {
+    .text {
+        font-size: 11px
+    }
+}
+
+
+/*======================Content trang chu=========================*/
+
+.Group-content-layout1 {
+    width: 100%;
+}
+
+.Group-layout {
+    margin: 0 auto;
+    background-color: white;
+}
+
+.Group-layout h2 {
+    background: #f2f2f2;
+    font-family: "Times New Roman", Times, serif;
+    padding: 5px 12px;
+    height: 38px;
+    margin: 15px 0px;
+    font-size: 25px;
+}
+
+.sachmoi {
+    position: relative;
+    font-size: 18px;
+    line-height: 38px;
+    font-weight: bold;
+    color: #fff;
+    background: #0e4159;
+    padding: 9px 20px 9px 15px;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.sachmoiv {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 19px solid transparent;
+    border-left: 12px solid #0e4159;
+    border-right: 0px solid transparent;
+    border-bottom: 20px solid transparent;
+    position: absolute;
+    top: 0;
+    right: -12px;
+}
+
+.more {
+    font-size: 14px;
+    color: #595959;
+    float: right;
+    padding: 8px 20px;
+}
+
+.blockcontent p {
+    line-height: 28px;
+}
+
+.newproducts {
+    position: relative;
+    padding: 0 20px;
+    overflow: hidden;
+    display: flex;
+}
+
+.contentsachmoi {
+    display: flex;
+    padding: 10px 0px;
+    flex-wrap: wrap;
+}
+
+.products-content {
+    width: 20%;
+    height: 100%;
+}
+
+.products {
+    top: 0px;
+    width: 155px;
+    height: 350px;
+    background: #FFFFFF;
+    border-bottom: 1px solid rgb(161, 161, 161);
+    border-left: 1px solid rgb(161, 161, 161);
+    padding: 0 5px;
+    margin: 0px 10px 40px 10px;
+    position: relative;
+    line-height: 10px;
+    box-shadow: 5px 6px #dddddd;
+    transition: margin-top 0.3s ease-in-out;
+    -moz-transition: margin-top 0.3s ease-in-out;
+    -webkit-transition: margin-top 0.3s ease-in-out;
+    transition: 0.4s all;
+}
+
+.products:hover {
+    margin-top: -5px;
+}
+
+
+/* .product-img>img{
+	width: 100%;
+	height: 320px;
+} */
+
+.products-img img {
+    width: 150px;
+    height: 202px;
+}
+
+.products li a {
+    color: black;
+}
+
+.products-name {
+    font-size: 12px;
+    line-height: 1.6em;
+    padding-left: 5px;
+    height: 56px;
+    width: 144px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.products-tacgia {
+    font-size: 11px;
+    padding-left: 5px;
+}
+
+.products-giamoi {
+    color: #444444;
+    font-weight: bold;
+    font-size: 14px;
+    padding-left: 5px;
+}
+
+.products-giacu {
+    color: #999999;
+    text-decoration: line-through;
+    font-size: 11px !important;
+    padding-left: 5px;
+}
+
+
+/* =======================footer =======================*/
+
+.container-footer-menu {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.textfooter {
+    line-height: 24px;
+    font-size: 13px;
+}
+
+.footer-menu {
+    width: 100%;
+    height: 370px;
+    margin: 0 auto;
+}
+
+.footertop {
+    width: 1200px;
+    margin: auto;
+}
+
+.footerbot {
+    width: 100%;
+    background-color: #f2f2f2;
+}
+
+.content-footer {
+    width: 1200px;
+    margin: auto;
+    border-bottom: 1px solid rgb(99, 99, 99);
+}
+
+.content-footer ul li {
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 5px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.group-footer {
+    text-transform: capitalize;
+    width: 17%;
+    float: left;
+    font-weight: bold;
+    padding: 10px 0;
+    color: #595959;
+    font-size: 10px;
+}
+
+.group-footer ul li a {
+    color: #595959;
+    font-weight: bold;
+}
+
+.content-group-facebook {
+    background-color: rgb(243, 243, 243);
+    padding-top: 10px;
+    height: 13em;
+}
+
+.content-group {
+    display: flex;
+}
+
+.group-facebook {
+    display: flex;
+    height: 130px;
+    width: 600px;
+    padding-left: 30px;
+    background: url(http://pixel.nymag.com/imgs/daily/intelligencer/2014/04/11/11-bookstores-6-three-lives-2.w1200.h630.jpg) no-repeat;
+}
+
+.group-facebook a {
+    display: flex;
+    margin-left: 0px;
+    margin-top: 10px;
+    line-height: 20px;
+}
+
+.logo-gr-faceook-bot a i {
+    text-align: center;
+}
+
+.logo-gr-faceook-bot a button {
+    width: 100px;
+    height: 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 0px;
+}
+
+#btnthichtrang {
+    margin: 10px 0px 0px 15px;
+    color: black;
+    font-weight: bolder;
+    background-color: rgb(199, 199, 199);
+    padding-left: 18px;
+    border: 1px solid #000000;
+    border-radius: 3px;
+}
+
+
+/*=======================% khuyến mãi*============================================*/
+
+.saleprice {
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    font-size: 13px;
+    line-height: 23px;
+    width: 46px;
+    height: 37px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url(https://nobita.vn/layouts/fontpage/images/saleprice.png) no-repeat;
+}
+
+
+/* ===================================trang ds san pham============================================== */
+
+.danhsachsp {
+    width: 1200px;
+    display: flex;
+    margin: auto;
+    margin-bottom: 70px;
+}
+
+.boxtraisp {
+    width: 210px;
+}
+
+.boxphaisp {
+    width: 990px;
+}
+
+.container-danhsachsanpham-top p {
+    padding-left: 10px 20px;
+}
+
+
+/* ====================chitiet san pham */
+
+#container {
+    width: 1200px;
+    height: auto;
+    padding: 0 30px;
+    margin: 0px auto;
+    box-sizing: border-box;
+}
+
+
+/* ----------------mở pathway------------------------- */
+
+.pathway {
+    width: 100%;
+    height: 25px;
+    margin: 0px auto 0px auto;
+    padding: 0px;
+    display: block;
+    color: #999999;
+    line-height: 25px;
+}
+
+.pathway ul {
+    line-height: 29px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.pathway ul li {
+    font-size: 13px;
+    float: left;
+    padding: 0 5px 0 0;
+    z-index: 8;
+    margin-top: 5px;
+    white-space: nowrap;
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.pathway ul li a {
+    color: #0e4159;
+    padding: 0 10px 0 0;
+    text-decoration: none;
+}
+
+a {
+    color: #0e4159;
+}
+
+
+/* ----------------mở showsp------------------------- */
+
+.showsp {
+    width: 100%;
+    margin: 50px 0px 70px 0px;
+    padding: 0px;
+}
+
+.showimg {
+    padding: 0px 10px;
+    float: left;
+}
+
+.showimg img {
+    width: 241px;
+    height: 350px;
+}
+
+.info {
+    width: 60%;
+    margin-top: 0px;
+    margin-left: 315px
+}
+
+.book_origin {
+    height: 23px;
+    margin-top: 20px;
+}
+
+.book_tg {
+    margin-right: 60px;
+    width: 200px;
+}
+
+.book_ph {
+    width: auto;
+}
+
+.comment {
+    margin-top: 10px;
+    height: 23px;
+}
+
+.write_comment {
+    width: 195px;
+    margin-right: 60px;
+    float: left;
+}
+
+.add_wishlist {
+    width: auto;
+}
+
+.info_giaban {
+    margin-top: 25px;
+    border-top: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    padding: 25px 0px;
+    display: flex;
+}
+
+#giaban {
+    font-weight: bold;
+    font-size: 30px;
+    color: #0e4159;
+}
+
+.giaphu {
+    margin-top: 10px;
+    width: auto;
+}
+
+.giabia {
+    width: 200px;
+    float: left;
+    margin-right: 60px;
+}
+
+.blockcontent {
+    margin: 20px;
+}
+
+
+/* ----------------đóng showsp------------------------- */
+
+
+/* ----------------mở show chi tiết------------------------- */
+
+.gioithieusach {
+    text-transform: capitalize;
+    color: #333;
+    font-size: 19px;
+    font-weight: normal;
+    padding-bottom: 5px;
+    margin-bottom: 45px;
+    color: #444;
+    margin-top: 15px;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.book_intro {
+    width: 100%;
+    margin: 30px 0px 20px 0px;
+}
+
+.write_bookintro p {
+    margin: 20px 0px;
+    line-height: 30px;
+}
+
+.thongtinchitiet {
+    text-transform: capitalize;
+    color: #333;
+    font-size: 19px;
+    font-weight: normal;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    color: #444;
+    margin-top: 30px;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.boxphaisp {
+    padding-top: 10px;
+    margin-left: 20px;
+}
+
+#btnmua,
+#btnmua1 {
+    width: 200px;
+    height: 35px;
+    font-size: 18px;
+    margin-top: 10px;
+    border: none;
+    color: #ffffff;
+    margin-bottom: 10px;
+    background-color: #ec2828;
+    transition: all 0.3s;
+}
+
+#btnmua1 {
+    width: 400px;
+    height: 40px;
+    margin: 0px 0px 70px 350px;
+}
+
+#btnmua:hover {
+    background-color: #ec2828cc;
+}
+
+#btnmua1:hover {
+    background-color: #ec2828cc;
+}
+
+#idchinhsua {
+    /* color: rgb(255, 255, 255); */
+    margin-left: 595px;
+}
+
+#idchinhsua:hover {
+    color: red;
+}
+
+#idquaylai {
+    margin-left: 345px;
+}
+
+#idquaylai:hover {
+    color: red;
+}
+
+.capnhatthongtin {
+    display: flex;
+    width: 1200px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.capnhatthongtinleft {
+    margin-top: 80px;
+}
+
+.capnhatthongtinright {
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 863px;
+    /* color: #ffffff; */
+}
+
+#tablett {
+    width: 800px;
+    margin: auto;
+    border-collapse: collapse;
+    min-height: 100px;
+    margin-top: 10px;
+    margin-left: 0px;
+}
+
+.showcart {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    margin-bottom: 100px;
+    margin-top: 40px;
+}
+
+.showcartleft {
+    flex: 35%;
+    /* background: #f2f2f2; */
+}
+
+.tieudediachigiaohang {
+    width: 100%;
+    height: 40px;
+    background: #0e415969;
+    margin: 0px;
+    font-size: 22px;
+    padding: 5px 0px 0px 12px;
+    font-weight: bold;
+}
+
+.ttdathang {
+    margin-top: 10px;
+}
+
+.showcartright {
+    flex: 65%;
+    padding-top: 16px;
+    padding-bottom: 5px;
+    min-height: 200px;
+}
+
+#ipttgh {
+    height: 30px;
+    width: 320px;
+    outline: none;
+    margin-bottom: 7px;
+}
+
+#ipnamegh {
+    height: 30px;
+    width: 280px;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+#genderttdathang {
+    height: 30px;
+    outline: none;
+}
+
+#diachinhanhang {
+    outline: none;
+}
+
+#showcart {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #3333;
+    background: #ffffff;
+    width: 98%;
+    margin: auto;
+}
+
+#showcart th {
+    font-size: 16px;
+    border-bottom: 1px solid rgba(24, 24, 24, 0.822);
+    height: 40px;
+}
+
+#idbbt {
+    border-bottom: 1px solid #c2c2c2;
+}
+
+.titlegh {
+    width: 1200px;
+    margin: auto;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+#imgcart {
+    height: 60px;
+    margin: 5px;
+}
+
+#btnxoacart {
+    width: 40px;
+    height: 25px;
+    border: 0px;
+}
+
+#idsoluong {
+    outline: none;
+    background-color: #ffffff;
+    width: 50px;
+    height: 25px;
+    padding-left: 3px;
+}
+
+#showcart th:nth-child(1) {
+    width: 50%;
+}
+
+#showcart th:nth-child(2) {
+    width: 10%;
+}
+
+#showcart th:nth-child(3) {
+    width: 10%;
+}
+
+#showcart th:nth-child(5) {
+    width: 10%;
+}
+
+#tongtiencart {
+    background: #0e41592d;
+    height: 40px;
+}
+
+.titlegiohang {
+    margin-left: 10px;
+    padding-top: 4px;
+    width: 98%;
+    height: 35px;
+    background: #0e415969;
+}
+
+.thongtinchuyenkhoan {
+    font-size: 14px;
+    margin-left: 25px;
+    line-height: 28px;
+}
+
+.billcomfirm {
+    width: 800px;
+    margin: auto;
+    line-height: 24px;
+    margin-top: 30px;
+    min-height: 400px;
+    padding-left: 20px;
+}
+
+.billcomfirm h1 {
+    text-align: center;
+}
+
+#thongtinnguoinhan {
+    font-size: 17px;
+}
+
+.mybill {
+    width: 1200px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    border-collapse: collapse;
+}
+
+.mybill th {
+    height: 30px;
+    background: #0e415969;
+}
+
+.ctdh {
+    margin: 5px;
+}
+
+.show_chitiet {
+    margin-bottom: 140px;
+}

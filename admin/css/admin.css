@@ -1,0 +1,357 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1360px;
+    margin: auto;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    z-index: 101;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    margin-left: 40px;
+    height: 60px;
+}
+
+.menu {
+    background-color: #0e4159;
+}
+
+.menu ul li {
+    margin: 20px;
+}
+
+.menu ul li a {
+    color: white;
+}
+
+.themdanhmuc {
+    margin-left: 20px;
+}
+
+.themdanhmuc input {
+    height: 30px;
+    margin: 10px 10px;
+    padding: 0px 10px 0px 10px;
+    background-color: transparent;
+    outline: none;
+}
+
+#iddanhmuc,
+#themdm {
+    width: 400px;
+    border: none;
+    border-bottom: 2px solid#333;
+}
+
+#select {
+    width: 1300px;
+    margin: auto;
+}
+
+.contentthem {
+    margin-left: 60px;
+}
+
+#xemds,
+#themdm {
+    display: block;
+    margin-top: 10px;
+    height: 33px;
+    width: 200px;
+    cursor: pointer;
+    background-color: #0e4159;
+    color: white;
+    border: none;
+    transition: 0.3s ease;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 3px;
+}
+
+#xemds:hover {
+    background-color: white;
+    color: rgb(3, 102, 77);
+    border: 3px solid rgb(3, 102, 77);
+}
+
+#themdm:hover {
+    background-color: white;
+    color: rgb(3, 102, 77);
+    border: 3px solid rgb(3, 102, 77);
+}
+
+#tabledanhmuc {
+    border-collapse: collapse;
+    width: 1000px;
+    margin: auto;
+}
+
+.contentthem {
+    margin-top: 20px;
+}
+
+form p {
+    margin: 10px;
+}
+
+form p input {
+    width: 350px;
+    height: 25px;
+}
+
+#adminadd_name {
+    height: 25px;
+    width: 250px;
+    padding-left: 12px;
+}
+
+#xemds,
+#themmoi {
+    display: block;
+    margin-top: 10px;
+    height: 33px;
+    width: 150px;
+    cursor: pointer;
+    background-color: rgb(3, 102, 77);
+    color: white;
+    border: none;
+    transition: 0.3s ease;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 5px;
+}
+
+#xemds:hover {
+    background-color: white;
+    color: rgb(3, 102, 77);
+    border: 3px solid rgb(3, 102, 77);
+}
+
+#themmoi:hover {
+    background-color: white;
+    color: rgb(3, 102, 77);
+    border: 3px solid rgb(3, 102, 77);
+}
+
+#tabledanhmuc {
+    border-collapse: collapse;
+    width: 1000px;
+    margin: auto;
+}
+
+
+/* ===============tacgia==================== */
+
+#adminadd_name {
+    height: 30px;
+    width: 330px;
+    padding-left: 12px;
+}
+
+#xemds,
+#themdm {
+    display: block;
+    margin-top: 10px;
+    height: 33px;
+    width: 200px;
+    cursor: pointer;
+    background-color: #0e4159;
+    color: white;
+    border: none;
+    transition: 0.3s ease;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 3px;
+}
+
+#xemds:hover {
+    background-color: white;
+    color: #0e4159;
+    border: 3px solid #0e4159;
+}
+
+#themdm:hover {
+    background-color: white;
+    color: #0e4159;
+    border: 3px solid #0e4159;
+}
+
+#tabledanhmuc {
+    border-collapse: collapse;
+    width: 1000px;
+    margin: auto;
+}
+
+.update {
+    margin-left: 240px;
+}
+
+#idtable {
+    width: 1250px;
+    margin-top: 30px;
+}
+
+header {
+    height: 80px;
+    background: #0e4159;
+    border-bottom: 1px solid #dddddd;
+    color: white;
+    padding: 10px 0px 0px 60px;
+    display: flex;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+header h1 {
+    flex: 70%;
+}
+
+.form a {
+    color: white;
+    padding-top: 20px;
+    margin-right: 40px;
+}
+
+.container {
+    display: flex;
+    min-height: 800px;
+}
+
+.contentleft {
+    flex: 12%;
+    width: 12%;
+    background-color: #0e4159;
+    position: fixed;
+    top: 80px;
+    left: 0px;
+    min-height: 800px;
+}
+
+.contentleft ul {
+    padding: 0px;
+}
+
+.contentleft ul li {
+    list-style: none;
+    width: 100%;
+    height: 50px;
+    padding-left: 13px;
+    transition: all 0.2s;
+}
+
+.contentleft ul li:hover {
+    background: rgba(255, 255, 255, 0.438);
+    color: #333;
+}
+
+.contentleft ul li a {
+    color: white;
+    font-size: 23px;
+    text-decoration: none;
+    transition: all 0.2s;
+    padding-top: 5px;
+}
+
+.contentright {
+    flex: 85%;
+    margin-top: 80px;
+    margin-left: 12%;
+}
+
+#formadd {
+    width: 1150px;
+    margin-left: 10px;
+}
+
+select {
+    width: 250px;
+    height: 30px;
+}
+
+#boloc {
+    padding-left: 15px;
+    margin-top: 20px;
+}
+
+#iptim {
+    width: 300px;
+    height: 30px;
+    padding-left: 12px;
+}
+
+#btntim {
+    height: 30px;
+    width: 40px;
+}
+
+tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+.pdl {
+    padding-left: 15px;
+}
+
+#selectttdh {
+    width: 122px;
+}
+
+#capnhatttdh {
+    width: 70px;
+    height: 30px;
+    margin-left: 5px;
+}
+
+.bieudothongke {
+    margin-top: 80px;
+    width: 100%;
+}
+
+.uplower {
+    text-transform: capitalize;
+}
+
+.fz {
+    font-size: 14px;
+}
+
+.gtsp {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 150px;
+    width: 400px;
+}
+
+
+/* .xacnhanxoa {
+    width: 100%;
+    background: #333;
+    position: fixed;
+    z-index: 99999;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+} */
